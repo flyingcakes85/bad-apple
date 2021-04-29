@@ -16,14 +16,13 @@ def resize(image, new_width=70):
 def pixel_to_ascii(image):
     pixels = image.getdata()
     ascii_str = ""
-    print(max(pixels))
     for pixel in pixels:
         ascii_str += ASCII_CHARS[pixel//128]
     return ascii_str
 
 
 def main():
-    path = "frames/frame-0081.jpg"
+    path = "frames/frame-0281.jpg"
     try:
         image = PIL.Image.open(path)
     except:
