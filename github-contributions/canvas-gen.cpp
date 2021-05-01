@@ -4,7 +4,7 @@
 #include <string>
 
 // dimensions of the output matrix
-#define CANVAS_HEIGHT 50
+#define CANVAS_HEIGHT 37
 #define CANVAS_WIDTH 50
 
 int main()
